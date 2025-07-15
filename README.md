@@ -51,11 +51,71 @@ This enables:
 |  Any Reason Logic | Simulate predictions without needing a specific cause |
 
 ---
-## Results
+## Results - What You Get from This App
+When you launch and use the app, you get actionable insights and downloadable outputs that can support real decisions:
+
+### 🔍 Filtered Choke Point Insights  
+You can filter congestion points based on:
+- **Day of the week** (e.g., Monday, Saturday)
+- **Reason** (e.g., No signal, Flyover bottleneck, etc.)
+
+📝 View a **refined list** of traffic hotspots that match the filters — ideal for pattern discovery like *"Friday evening tech park congestion"*.
+
+---
 <img width="1919" height="958" alt="image" src="https://github.com/user-attachments/assets/aad61da2-bd48-420c-8e53-37322712748b" />
 <img width="1919" height="913" alt="image" src="https://github.com/user-attachments/assets/13450f25-a61d-4f0b-9dce-ab9a896471d0" />
+### 📄 Report Generation  
+After filtering or predicting, users can export reports:
+
+- ✅ **PDF Report**  
+    - Color-coded (🔴 High, 🟠 Medium, 🔵 Low)  
+    - Emoji-labeled severity  
+    - Time slot, location, and delay metadata  
+    - Clean Unicode fonts and professional layout
+
+- ✅ **CSV Report**  
+    - Raw structured data  
+    - Useful for spreadsheets, visualization, or analysis pipelines  
+    - Includes all fields: `lat, lon, area, delay_minutes, time_slot, day_of_week, reason`
+
+📥 Both are instantly downloadable and saved in the project folder.
+
+---
+
+### ➕ Add New Choke Points  
+Users can submit new entries using a form in the app.  
+The new point is:
+- Appended to the dataset
+- Available for future analysis or model retraining
+
+🧩 Enables **dynamic and community-driven data enrichment**.
+
+---
 <img width="1919" height="947" alt="image" src="https://github.com/user-attachments/assets/06d00037-2519-4b21-8cbd-e515fb650823" />
+### 🤖 ML-Based Congestion Prediction  
+Choose:
+- Day  
+- Time slot  
+- Area  
+- Reason (or use **"Any Reason"** for broader analysis)
+
+🧠 The app predicts:
+- **Congestion Severity**: 🔵 Low, 🟠 Medium, or 🔴 High  
+- **Contextual Confidence**: Based on real patterns in the dataset
+
+It also auto-displays the **Top 3 most frequently congested areas** from current data.
+
+---
+
+### 🧭 Nearby Area Awareness  
+If a selected area has minimal historical data, but **nearby locations (within 1.5 km)** frequently show high congestion, the model boosts prediction accuracy by:
+- **Inheriting congestion context from nearby points**  
+- Reducing false negatives for under-reported regions
+
+---
 <img width="1919" height="900" alt="image" src="https://github.com/user-attachments/assets/02783530-601b-4925-9735-0ba8b5a22457" />
+
+---
 
 
 ##  ML Model
