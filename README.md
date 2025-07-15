@@ -52,65 +52,67 @@ This enables:
 
 ---
 ## Results - What You Get from This App
-When you launch and use the app, you get actionable insights and downloadable outputs that can support real decisions:
+When you launch and use the app, you gain **actionable insights** and **downloadable outputs** to support smarter, real-world decisions.
 
 ### 🔍 Filtered Choke Point Insights  
 You can filter congestion points based on:
 - **Day of the week** (e.g., Monday, Saturday)
 - **Reason** (e.g., No signal, Flyover bottleneck, etc.)
 
-📝 View a **refined list** of traffic hotspots that match the filters — ideal for pattern discovery like *"Friday evening tech park congestion"*.
+📝 Instantly view a **refined list** of traffic hotspots matching your criteria — great for spotting patterns like *"Friday evening tech park congestion."*
 
 ---
 <img width="1919" height="958" alt="image" src="https://github.com/user-attachments/assets/aad61da2-bd48-420c-8e53-37322712748b" />
 <img width="1919" height="913" alt="image" src="https://github.com/user-attachments/assets/13450f25-a61d-4f0b-9dce-ab9a896471d0" />
+
 ### 📄 Report Generation  
-After filtering or predicting, users can export reports:
+After filtering or predicting, users can export insights as reports:
 
 - ✅ **PDF Report**  
-    - Color-coded (🔴 High, 🟠 Medium, 🔵 Low)  
-    - Emoji-labeled severity  
-    - Time slot, location, and delay metadata  
-    - Clean Unicode fonts and professional layout
+    - Color-coded severity (🔴 High, 🟠 Medium, 🔵 Low)  
+    - Emojis for visual clarity  
+    - Includes time slots, locations, delay data  
+    - Clean fonts and professional layout — ready for sharing
 
 - ✅ **CSV Report**  
-    - Raw structured data  
-    - Useful for spreadsheets, visualization, or analysis pipelines  
-    - Includes all fields: `lat, lon, area, delay_minutes, time_slot, day_of_week, reason`
+    - Structured raw data  
+    - Perfect for spreadsheets, dashboards, or analysis workflows  
+    - Fields: `lat, lon, area, delay_minutes, time_slot, day_of_week, reason`
 
-📥 Both are instantly downloadable and saved in the project folder.
+📥 Both reports are instantly downloadable and saved in your project folder.
 
 ---
 
 ### ➕ Add New Choke Points  
-Users can submit new entries using a form in the app.  
-The new point is:
-- Appended to the dataset
-- Available for future analysis or model retraining
+Users can contribute new traffic points using the app’s built-in form.  
+Each new entry is:
+- Instantly added to the dataset  
+- Available for future analysis and model retraining
 
-🧩 Enables **dynamic and community-driven data enrichment**.
+🧩 Enables **community-driven, real-time data enrichment**.
 
 ---
 <img width="1919" height="947" alt="image" src="https://github.com/user-attachments/assets/06d00037-2519-4b21-8cbd-e515fb650823" />
+
 ### 🤖 ML-Based Congestion Prediction  
-Choose:
+Select:
 - Day  
 - Time slot  
 - Area  
-- Reason (or use **"Any Reason"** for broader analysis)
+- Reason (or choose **"Any Reason"** for a broader view)
 
 🧠 The app predicts:
-- **Congestion Severity**: 🔵 Low, 🟠 Medium, or 🔴 High  
-- **Contextual Confidence**: Based on real patterns in the dataset
+- **Congestion Severity**: 🔵 Low, 🟠 Medium, 🔴 High  
+- **Contextual Confidence**: Inferred from real congestion trends
 
-It also auto-displays the **Top 3 most frequently congested areas** from current data.
+It also auto-displays the **Top 3 most frequently congested areas** based on current data.
 
 ---
 
 ### 🧭 Nearby Area Awareness  
-If a selected area has minimal historical data, but **nearby locations (within 1.5 km)** frequently show high congestion, the model boosts prediction accuracy by:
-- **Inheriting congestion context from nearby points**  
-- Reducing false negatives for under-reported regions
+When a selected area has limited data, but **nearby locations (within 1.5 km)** show recurring congestion, the app boosts prediction reliability by:
+- **Inheriting congestion context from nearby zones**  
+- Reducing false negatives for less-reported regions
 
 ---
 <img width="1919" height="900" alt="image" src="https://github.com/user-attachments/assets/02783530-601b-4925-9735-0ba8b5a22457" />
