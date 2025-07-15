@@ -54,7 +54,7 @@ This enables:
 ## Results - What You Get from This App
 When you launch and use the app, you gain **actionable insights** and **downloadable outputs** to support smarter, real-world decisions.
 
-### 🔍 Filtered Choke Point Insights  
+### Filtered Choke Point Insights  
 You can filter congestion points based on:
 - **Day of the week** (e.g., Monday, Saturday)
 - **Reason** (e.g., No signal, Flyover bottleneck, etc.)
@@ -68,40 +68,40 @@ You can filter congestion points based on:
 ### 📄 Report Generation  
 After filtering or predicting, users can export insights as reports:
 
-- ✅ **PDF Report**  
+- **PDF Report**  
     - Color-coded severity (🔴 High, 🟠 Medium, 🔵 Low)  
     - Emojis for visual clarity  
     - Includes time slots, locations, delay data  
     - Clean fonts and professional layout — ready for sharing
 
-- ✅ **CSV Report**  
+- **CSV Report**  
     - Structured raw data  
     - Perfect for spreadsheets, dashboards, or analysis workflows  
     - Fields: `lat, lon, area, delay_minutes, time_slot, day_of_week, reason`
 
-📥 Both reports are instantly downloadable and saved in your project folder.
+ Both reports are instantly downloadable and saved in your project folder.
 
 ---
 
-### ➕ Add New Choke Points  
+###  Add New Choke Points  
 Users can contribute new traffic points using the app’s built-in form.  
 Each new entry is:
 - Instantly added to the dataset  
 - Available for future analysis and model retraining
 
-🧩 Enables **community-driven, real-time data enrichment**.
+Enables **community-driven, real-time data enrichment**.
 
 ---
 <img width="1919" height="947" alt="image" src="https://github.com/user-attachments/assets/06d00037-2519-4b21-8cbd-e515fb650823" />
 
-### 🤖 ML-Based Congestion Prediction  
+###  ML-Based Congestion Prediction  
 Select:
 - Day  
 - Time slot  
 - Area  
 - Reason (or choose **"Any Reason"** for a broader view)
 
-🧠 The app predicts:
+ The app predicts:
 - **Congestion Severity**: 🔵 Low, 🟠 Medium, 🔴 High  
 - **Contextual Confidence**: Inferred from real congestion trends
 
@@ -109,7 +109,7 @@ It also auto-displays the **Top 3 most frequently congested areas** based on cur
 
 ---
 
-### 🧭 Nearby Area Awareness  
+### Nearby Area Awareness  
 When a selected area has limited data, but **nearby locations (within 1.5 km)** show recurring congestion, the app boosts prediction reliability by:
 - **Inheriting congestion context from nearby zones**  
 - Reducing false negatives for less-reported regions
