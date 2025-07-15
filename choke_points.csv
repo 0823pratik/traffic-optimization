@@ -1,0 +1,27 @@
+lat,lon,area,delay_minutes,time_slot,day_of_week,reason
+12.9352,77.6144,ORR - Agara,100,10:00 PM - 12:00 AM,Saturday,No signal or traffic cop
+12.9716,77.5946,MG Road,60,9:00 AM - 11:00 AM,Sunday,Too many crossings
+12.9612,77.6385,Koramangala Sony World,80,6:00 PM - 9:00 PM,Friday,Bottleneck near junction
+12.9538,77.4902,Rajajinagar 6th Block,55,8:00 AM - 10:00 AM,Monday,Poor lane discipline
+12.8986,77.5856,Bommanahalli Junction,90,5:00 PM - 8:00 PM,Wednesday,No underpass or U-turn
+12.9386,77.6101,Silk Board Junction,120,5:00 PM - 9:00 PM,Friday,Merging roads with no signal coordination
+12.9843,77.5489,Yeshwanthpur Circle,75,8:00 AM - 10:30 AM,Tuesday,Bad signal timing and pedestrian crossings
+12.9488,77.6890,Marathahalli Bridge,85,6:30 PM - 9:00 PM,Thursday,Bottleneck due to flyover merging
+12.9052,77.5836,HSR Layout 27th Main,65,9:00 AM - 11:30 AM,Saturday,School traffic and no lane enforcement
+12.9270,77.5838,BTM Layout Udupi Garden,95,6:00 PM - 8:30 PM,Sunday,Multiple U-turns and bus stops on main road
+12.9405,77.6221,Adugodi Junction,70,6:00 PM - 8:00 PM,Thursday,Frequent metro construction-related blockage
+13.0358,77.5970,Hennur Cross,80,7:00 AM - 9:30 AM,Monday,Badly timed signal + merging roads
+12.9739,77.6097,Domlur Flyover Exit,65,5:00 PM - 7:30 PM,Tuesday,High-speed entry and narrow merge
+12.9373,77.6213,Ejipura Junction,90,6:00 PM - 9:00 PM,Friday,No signal + uneven road
+12.9734,77.5414,Rajkumar Road - ISKCON,55,9:00 AM - 11:00 AM,Wednesday,Bus stop and market crowding
+12.9308,77.6783,Bellandur Central Mall,100,5:30 PM - 9:00 PM,Saturday,Tech park outflow with no signals
+12.9532,77.4906,Navarang Signal,70,6:30 PM - 8:00 PM,Monday,Auto-rickshaw stand clogging exit
+13.0183,77.5874,Nagawara Junction,110,8:00 AM - 10:30 AM,Thursday,ORR merge + bus depot exit
+13.0282,77.5891,Thanisandra Main Road,90,6:00 PM - 9:00 PM,Friday,Construction + school zone overlap
+12.9654,77.5986,Richmond Circle,60,8:00 AM - 10:00 AM,Tuesday,Free-for-all merging chaos
+12.9181,77.6109,Tavarekere Main Road,75,5:00 PM - 7:30 PM,Sunday,Poor lane markings and rash turns
+12.9903,77.5852,Malleswaram 18th Cross,50,9:30 AM - 11:30 AM,Wednesday,Unregulated pedestrian crossing
+12.9954,77.5742,Sadashivanagar BDA,45,6:00 PM - 8:00 PM,Monday,Broken signals and parked vehicles
+12.8971,77.5192,Electronic City Phase 1 Gate,85,5:30 PM - 8:30 PM,Thursday,Too many private buses and tech rush
+12.9619,77.6381,Forum Mall Koramangala,95,4:00 PM - 9:00 PM,Saturday,Shopping crowd + autos + junction mess
+

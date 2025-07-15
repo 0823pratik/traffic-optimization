@@ -1,0 +1,26 @@
+area,lat,lon,day_of_week,time_slot,delay_minutes,reason,congestion_level,suggested_fix
+Silk Board Junction,12.9386,77.6101,Friday,5:00 PM - 9:00 PM,120,Merging roads with no signal coordination,High,Review manually
+Nagawara Junction,13.0183,77.5874,Thursday,8:00 AM - 10:30 AM,110,ORR merge + bus depot exit,High,Review manually
+ORR - Agara,12.9352,77.6144,Saturday,10:00 PM - 12:00 AM,100,No signal or traffic cop,High,Add traffic signal or assign cop
+Bellandur Central Mall,12.9308,77.6783,Saturday,5:30 PM - 9:00 PM,100,Tech park outflow with no signals,High,Review manually
+BTM Layout Udupi Garden,12.927,77.5838,Sunday,6:00 PM - 8:30 PM,95,Multiple U-turns and bus stops on main road,High,Review manually
+Forum Mall Koramangala,12.9619,77.6381,Saturday,4:00 PM - 9:00 PM,95,Shopping crowd + autos + junction mess,High,Review manually
+Bommanahalli Junction,12.8986,77.5856,Wednesday,5:00 PM - 8:00 PM,90,No underpass or U-turn,Medium,Review manually
+Ejipura Junction,12.9373,77.6213,Friday,6:00 PM - 9:00 PM,90,No signal + uneven road,Medium,Review manually
+Thanisandra Main Road,13.0282,77.5891,Friday,6:00 PM - 9:00 PM,90,Construction + school zone overlap,Medium,Review manually
+Marathahalli Bridge,12.9488,77.689,Thursday,6:30 PM - 9:00 PM,85,Bottleneck due to flyover merging,Medium,Review manually
+Electronic City Phase 1 Gate,12.8971,77.5192,Thursday,5:30 PM - 8:30 PM,85,Too many private buses and tech rush,Medium,Review manually
+Koramangala Sony World,12.9612,77.6385,Friday,6:00 PM - 9:00 PM,80,Bottleneck near junction,Medium,Review manually
+Hennur Cross,13.0358,77.597,Monday,7:00 AM - 9:30 AM,80,Badly timed signal + merging roads,Medium,Review manually
+Yeshwanthpur Circle,12.9843,77.5489,Tuesday,8:00 AM - 10:30 AM,75,Bad signal timing and pedestrian crossings,Medium,Review manually
+Tavarekere Main Road,12.9181,77.6109,Sunday,5:00 PM - 7:30 PM,75,Poor lane markings and rash turns,Medium,Review manually
+Adugodi Junction,12.9405,77.6221,Thursday,6:00 PM - 8:00 PM,70,Frequent metro construction-related blockage,Medium,Review manually
+Navarang Signal,12.9532,77.4906,Monday,6:30 PM - 8:00 PM,70,Auto-rickshaw stand clogging exit,Medium,Review manually
+HSR Layout 27th Main,12.9052,77.5836,Saturday,9:00 AM - 11:30 AM,65,School traffic and no lane enforcement,Medium,Review manually
+Domlur Flyover Exit,12.9739,77.6097,Tuesday,5:00 PM - 7:30 PM,65,High-speed entry and narrow merge,Medium,Review manually
+MG Road,12.9716,77.5946,Sunday,9:00 AM - 11:00 AM,60,Too many crossings,Medium,Install pedestrian skywalk
+Richmond Circle,12.9654,77.5986,Tuesday,8:00 AM - 10:00 AM,60,Free-for-all merging chaos,Medium,Review manually
+Rajajinagar 6th Block,12.9538,77.4902,Monday,8:00 AM - 10:00 AM,55,Poor lane discipline,Medium,Deploy traffic enforcement
+Rajkumar Road - ISKCON,12.9734,77.5414,Wednesday,9:00 AM - 11:00 AM,55,Bus stop and market crowding,Medium,Review manually
+Malleswaram 18th Cross,12.9903,77.5852,Wednesday,9:30 AM - 11:30 AM,50,Unregulated pedestrian crossing,Medium,Review manually
+Sadashivanagar BDA,12.9954,77.5742,Monday,6:00 PM - 8:00 PM,45,Broken signals and parked vehicles,Medium,Review manually
