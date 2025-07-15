@@ -39,7 +39,7 @@ This enables:
 
 ---
 
-## 🚀 Features
+##  Features
 
 | Feature | Description |
 |--------|-------------|
@@ -51,15 +51,21 @@ This enables:
 |  Any Reason Logic | Simulate predictions without needing a specific cause |
 
 ---
+## Results
+<img width="1919" height="958" alt="image" src="https://github.com/user-attachments/assets/aad61da2-bd48-420c-8e53-37322712748b" />
+<img width="1919" height="913" alt="image" src="https://github.com/user-attachments/assets/13450f25-a61d-4f0b-9dce-ab9a896471d0" />
+<img width="1919" height="947" alt="image" src="https://github.com/user-attachments/assets/06d00037-2519-4b21-8cbd-e515fb650823" />
+<img width="1919" height="900" alt="image" src="https://github.com/user-attachments/assets/02783530-601b-4925-9735-0ba8b5a22457" />
 
-## 📊 ML Model
+
+##  ML Model
 
 - Model: `LogisticRegression`
 - Inputs: `day`, `time_slot`, `reason`, `area`
 - Output: Delay Level → `Low / Medium / High`
 - Enhanced with:  
-  ✅ `"Any Reason"` simulation  
-  ✅ Nearby location-based adjustments (1.5 km radius)
+   `"Any Reason"` simulation  
+   Nearby location-based adjustments (1.5 km radius)
 
 ---
 
@@ -80,9 +86,9 @@ bangalore-choke-points-demo/
 
 ---
 
-## ▶️ Run the App
+##  Run the App
 
-### 🧰 Installation
+### Installation
 
 ```bash
 pip install -r requirements.txt
@@ -94,7 +100,7 @@ Or manually:
 pip install streamlit fpdf2 pandas scikit-learn
 ```
 
-### ▶️ Launch the Streamlit App
+###  Launch the Streamlit App
 
 ```bash
 python -m streamlit run app.py
@@ -132,13 +138,13 @@ After filtering or predicting:
 
 We can plan to expand this into a powerful civic-tech platform:
 
-- 📡 **Google BigQuery integration** for large-scale traffic analytics
-- 🌍 **Heatmap overlays** from satellite + traffic sensors
-- 📥 **Crowdsourced submission portal** with moderation & ranking
-- ⏱ **Signal timing suggestions** for traffic departments
-- 📆 **Historical time-series heatmaps**
-- 🧠 **AI-based pattern clustering** (e.g. weekend vs weekday vs event-based)
-- 🏙️ **Ward-wise dashboards** for BBMP and local authorities
+-  **Google BigQuery integration** for large-scale traffic analytics
+-  **Heatmap overlays** from satellite + traffic sensors
+-  **Crowdsourced submission portal** with moderation & ranking
+-  **Signal timing suggestions** for traffic departments
+-  **Historical time-series heatmaps**
+-  **AI-based pattern clustering** (e.g. weekend vs weekday vs event-based)
+-  **Ward-wise dashboards** for BBMP and local authorities
 
 ---
 
